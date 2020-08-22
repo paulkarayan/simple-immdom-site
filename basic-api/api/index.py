@@ -16,7 +16,7 @@ ids = [
 
 
 @app.route('/api')
-@app.route('/api/dns')
+@app.route('/dns')
 def api():
     domain = request.args.get('domain')
     result = resolve(domain)
