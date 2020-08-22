@@ -9,8 +9,8 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        print(parse_qs(s[2:]))
-        parsed_params = parse_qs(s[2:])
+        print(parse_qs(self.path[2:]))
+        parsed_params = parse_qs(self.path[2:])
         message = cow.Cowacter().milk(
             'Hello from Python Vercel - {parsed_params}!'.format(parsed_params=parsed_params))
         self.wfile.write(message.encode())
