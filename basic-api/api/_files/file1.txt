@@ -1,1 +1,1 @@
-this is the first file in the directory
+the first file in the directory

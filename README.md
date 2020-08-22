@@ -32,7 +32,7 @@ At some point, we'll put links to make this trivially easy in all the example di
 # What is Imminent Domain?
 
 <p align="center">
-  <img src="assets/thinker.png" />
+  <img src="_assets/thinker.png" />
 </p>
 
 Imminent Domain (ImmDom) is an Open Source, community-run software platform.
@@ -62,4 +62,4 @@ Links to the projects will go here. Later we'll make this a webapp itself!
 
 (not really sponsored by but the logo is cool - and we are looking for people to help us spread the news!)
 
-![Sherlock and Watson](assets/irregular_engineering.png "Sherlock and Watson")
+![Sherlock and Watson](_assets/irregular_engineering.png "Sherlock and Watson")
