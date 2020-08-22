@@ -15,7 +15,7 @@ ids = [
 ]
 
 
-@app.route('/')
+@app.route('/api')
 def api():
     domain = request.args.get('domain')
     result = resolve(domain)
