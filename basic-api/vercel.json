@@ -1,6 +1,10 @@
 {
+  "env": {},
   "functions": {
-    "api/hello.js": {
+    "api/js/basic.js": {
+      "includeFiles": "_files/**"
+    },
+    "api/python/basic.py": {
       "includeFiles": "_files/**"
     }
   }
