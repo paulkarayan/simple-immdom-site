@@ -7,6 +7,5 @@
     "api/python/basic.py": {
       "includeFiles": "_files/**"
     }
-  },
-  "routes": [{ "src": "/.*", "dest": "/" }]
+  }
 }
