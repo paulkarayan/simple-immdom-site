@@ -1,0 +1,15 @@
+{
+  "env": {
+    "MYSQL_HOST": "@mysql_host",
+    "MYSQL_USER": "@mysql_user",
+    "MYSQL_PASSWORD": "@mysql_password",
+    "MYSQL_DATABASE": "@mysql_database",
+    "AWS_ACCESS_KEY_ID_X": "@aws_access_key_id",
+    "AWS_SECRET_ACCESS_KEY_X": "@aws_secret_access_key"
+  },
+  "functions": {
+    "api/hello.js": {
+      "includeFiles": "_files/**"
+    }
+  }
+}
