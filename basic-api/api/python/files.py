@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from cowpy import cow
+import os
 
 
 class handler(BaseHTTPRequestHandler):
@@ -8,6 +9,9 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        message = cow.Cowacter().milk('Hello from Python from a Serverless Function!')
+        with open('file.txt', 'r') as fptr:
+            data = fptr.read()
+        message = cow.Cowacter().milk(
+            'Hello, here is the file contents: {data}'.format(data=data))
         self.wfile.write(message.encode())
         return
