@@ -17,7 +17,7 @@ ids = [
 
 @app.route('/')
 @app.route('/dns')
-def api():
+def dns():
     domain = request.args.get('domain')
     result = resolve(domain)
     return jsonify(dict(data=result))
