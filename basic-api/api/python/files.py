@@ -12,7 +12,8 @@ class handler(BaseHTTPRequestHandler):
         print(os.getcwd())
         from os import listdir
         from os.path import isfile, join
-        onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+        onlyfiles = [f for f in listdir(
+            os.getcwd()) if isfile(join(os.getcwd(), f))]
         print(onlyfiles)
         with open('./_files/file.txt', 'r') as fptr:
             data = fptr.read()
