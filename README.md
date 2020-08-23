@@ -54,6 +54,13 @@ We welcome your thoughts on how to achieve our state goal, as well as your contr
 Please use Github Issues to request additional examples, features, or to file bugs.
 We'd also love to showcase community examples. We won't bite - promise!
 
+## Generating the Site
+
+We use Showdown.
+
+npm install showdown -g
+showdown makehtml -i README.md -o index.html
+
 ## Catalogue of Examples
 
 Links to the projects will go here. Later we'll make this a webapp itself!
