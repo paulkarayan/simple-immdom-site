@@ -9,7 +9,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        with open('_files/file.txt', 'r') as fptr:
+        with open('./_files/file.txt', 'r') as fptr:
             data = fptr.read()
         message = cow.Cowacter().milk(
             'Hello, here is the file contents: {data}'.format(data=data))
