@@ -82,6 +82,7 @@ https://markdowncss.github.io/
 [Use Files at Runtime Example](functions.immdom.com/js/files)
 
 **Python**
+
 [Basic Example](functions.immdom.com/python/basic)
 
 [Params Example](functions.immdom.com/python/param) <-- this is different. it just prints a dict of params.
@@ -99,6 +100,7 @@ https://markdowncss.github.io/
 [Use Files at Runtime Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/files.js)
 
 **Python**
+
 [Basic Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/basic.py)
 
 [Params Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/param.py)
