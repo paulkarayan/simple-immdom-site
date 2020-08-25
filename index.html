@@ -13,8 +13,10 @@
 The intention is to demonstrate the sorts of things you can do with Imminent Domain.</p>
 <h2 id="gettingstarted">Getting Started</h2>
 <h3 id="runlocally">Run Locally</h3>
-<p>First, cd into the example's directory you'd like to run. For example:</p>
-<pre><code class="bash language-bash">cd basic-api
+<p>First, clone and cd into the example's directory you'd like to run.</p>
+<p>For example:</p>
+<pre><code class="bash language-bash">git clone https://github.com/paulkarayan/vercel-functions-immdom.git
+cd vercel-functions-immdom
 </code></pre>
 <p>Then run the development server:</p>
 <pre><code class="bash language-bash">npm run dev
@@ -43,19 +45,35 @@ tutorials and educational materials such as these examples.</p>
 We'd also love to showcase community examples. We won't bite - promise!</p>
 <h3 id="generatingthesite">Generating the Site</h3>
 <p>We use Showdown.</p>
-<p>npm install showdown -g
-showdown makehtml -i README.md -o index.html</p>
+<pre><code>npm install showdown -g
+showdown makehtml -i README.md -o index.html
+</code></pre>
 <p>then copy the code into "dummy"</p>
 <p>and then add CSS from
 https://markdowncss.github.io/</p>
-<h3 id="catalogueofexamples">Catalogue of Examples</h3>
-<p>Links to the projects will go here. Later we'll make this a webapp itself!</p>
+<h3 id="catalogueofexamplesworkingapis">Catalogue of Examples - working APIs</h3>
+<p><strong>Javascript</strong></p>
+<p><a href="functions.immdom.com/js/basic">Basic Example</a></p>
+<p><a href="functions.immdom.com/js/param">Params Example</a> <-- try more params with /js/param?basicThing=<insertMe></p>
+<p><a href="functions.immdom.com/js/files">Use Files at Runtime Example</a></p>
+<p><strong>Python</strong>
+<a href="functions.immdom.com/python/basic">Basic Example</a></p>
+<p><a href="functions.immdom.com/python/param">Params Example</a> &lt;-- this is different. it just prints a dict of params.</p>
+<p><a href="https://functions.immdom.com/api?domain=google.com">Flask Example</a> &lt;-- dns lookup on a domain.</p>
+<h3 id="catalogueofexamplescode">Catalogue of Examples - code</h3>
+<p><strong>Javascript</strong></p>
+<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/basic.js">Basic Example</a></p>
+<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/param.js">Params Example</a></p>
+<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/files.js">Use Files at Runtime Example</a></p>
+<p><strong>Python</strong>
+<a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/basic.py">Basic Example</a></p>
+<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/param.py">Params Example</a></p>
+<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/index.py">Flask Example</a></p>
 <h3 id="sponsors">Sponsors</h3>
 <p>(not really sponsored by but the logo is cool - and we are looking for people to help us spread the news!)</p>
 <p align="center">
   <img src="_assets/irregular_engineering.png" />
 </p>
-
 
 </body>
 </html>

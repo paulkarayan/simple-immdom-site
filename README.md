@@ -7,10 +7,13 @@ The intention is to demonstrate the sorts of things you can do with Imminent Dom
 
 ### Run Locally
 
-First, cd into the example's directory you'd like to run. For example:
+First, clone and cd into the example's directory you'd like to run.
+
+For example:
 
 ```bash
-cd basic-api
+git clone https://github.com/paulkarayan/vercel-functions-immdom.git
+cd vercel-functions-immdom
 ```
 
 Then run the development server:
@@ -58,17 +61,49 @@ We'd also love to showcase community examples. We won't bite - promise!
 
 We use Showdown.
 
+```
 npm install showdown -g
 showdown makehtml -i README.md -o index.html
+```
 
 then copy the code into "dummy"
 
 and then add CSS from
 https://markdowncss.github.io/
 
-### Catalogue of Examples
+### Catalogue of Examples - working APIs
 
-Links to the projects will go here. Later we'll make this a webapp itself!
+**Javascript**
+
+[Basic Example](functions.immdom.com/js/basic)
+
+[Params Example](functions.immdom.com/js/param) <-- try more params with /js/param?basicThing=<insertMe>
+
+[Use Files at Runtime Example](functions.immdom.com/js/files)
+
+**Python**
+[Basic Example](functions.immdom.com/python/basic)
+
+[Params Example](functions.immdom.com/python/param) <-- this is different. it just prints a dict of params.
+
+[Flask Example](https://functions.immdom.com/api?domain=google.com) <-- dns lookup on a domain.
+
+### Catalogue of Examples - code
+
+**Javascript**
+
+[Basic Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/basic.js)
+
+[Params Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/param.js)
+
+[Use Files at Runtime Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/files.js)
+
+**Python**
+[Basic Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/basic.py)
+
+[Params Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/param.py)
+
+[Flask Example](https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/index.py)
 
 ### Sponsors
 
