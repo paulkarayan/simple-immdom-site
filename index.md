@@ -8,6 +8,7 @@ Imminent Domain (ImmDom) is a free & open-source toolset to help you get from id
 
 built for the solutions engineers, the hackers, the "non-coders", and anyone who wants the skip the bullshit and quickly test or iterate on an idea. just think of what is possible when you make every day a hack day, and everyone a builder.
 
+**please add your platform feature, function, and infra requests [here as github issues](https://github.com/ImminentDomain/foundation)**
 
 ## what is it?
 
@@ -60,7 +61,7 @@ our intention is to make software development easier and open to more people, an
 we're always going to be free and open source, in spirit and name alike.
 **we welcome you to join us in opening software development to more people**
 
-one the best ways to get started is to tell us more about what you are building (or want to build) with Immdom. another would be to request a platform feature or catalogue item (either function or component) using Github issues here
+one the best ways to get started is to tell us more about what you are building (or want to build) with Immdom. another would be to request a platform feature or catalogue item (either function or component) using [github issues](https://github.com/ImminentDomain/foundation).
 
 there has been a lot of amazing work that has inspired us. this includes the like of Netlify and Vercel Functions, Blockspring,
 Vercel's GCP integration, and Gruntworks.
