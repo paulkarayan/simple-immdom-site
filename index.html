@@ -7,73 +7,68 @@
 </head>
 <body>
 
-
-<h2 id="imminentdomainexamples">Imminent Domain Examples</h2>
-<p>Here are a set of examples built on Next.js that should happily deploy to Vercel.
-The intention is to demonstrate the sorts of things you can do with Imminent Domain.</p>
-<h2 id="gettingstarted">Getting Started</h2>
-<h3 id="runlocally">Run Locally</h3>
-<p>First, clone and cd into the example's directory you'd like to run.</p>
-<p>For example:</p>
-<pre><code class="bash language-bash">git clone https://github.com/paulkarayan/vercel-functions-immdom.git
-cd vercel-functions-immdom
+<h1 id="imminentdomainimmdom">Imminent Domain (ImmDom)</h1>
+<pre><code>&gt; make every day a hack day
 </code></pre>
-<p>Then run the development server:</p>
-<pre><code class="bash language-bash">npm run dev
-# or
-yarn dev
-</code></pre>
-<p>Open <a href="http://localhost:3000">http://localhost:3000</a> with your browser to see the result.</p>
-<h3 id="deploytovercel">Deploy to Vercel</h3>
-<p>The easiest way to deploy your Next.js app is to use the <a href="https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme">Vercel Platform</a> from the creators of Next.js.</p>
-<p>At some point, we'll put links to make this trivially easy in all the example directories.</p>
-<h2 id="whatisimminentdomain">What is Imminent Domain?</h2>
 <p align="center">
   <img src="_assets/thinker.png" />
 </p>
-<p>Imminent Domain (ImmDom) is an Open Source, community-run software platform.
-Our purpose is to accelerate software product development with the sole KPI (key performance indicator)
-of Time From Idea to MVP (well - you can argue "time to iteration step" more broadly. work with me, people!)</p>
-<p>To accomplish this goal, we curate best of breed tech and build our own where it's needed.</p>
-<p>The Foundation Project (forthcoming) has focused around rapid infrastructure build out,
-centered around enabling technologies like AWS/GCP and Terraform. We also provide
-tutorials and educational materials such as these examples.</p>
-<h2 id="otherthings">Other Things</h2>
-<h3 id="wishlist">Wish List</h3>
-<p>We welcome your thoughts on how to achieve our state goal, as well as your contributions.</p>
-<p>Please use Github Issues to request additional examples, features, or to file bugs.
-We'd also love to showcase community examples. We won't bite - promise!</p>
-<h3 id="generatingthesite">Generating the Site</h3>
-<p>We use Showdown.</p>
-<pre><code>npm install showdown -g
-showdown makehtml -i README.md -o index.html
-</code></pre>
-<p>then copy the code into "dummy"</p>
-<p>and then add CSS from
-https://markdowncss.github.io/</p>
-<h3 id="catalogueofexamplesworkingapis">Catalogue of Examples - working APIs</h3>
-<p><strong>Javascript</strong></p>
-<p><a href="functions.immdom.com/js/basic">Basic Example</a></p>
-<p><a href="functions.immdom.com/js/param">Params Example</a> <-- try more params with /js/param?basicThing=<insertMe></p>
-<p><a href="functions.immdom.com/js/files">Use Files at Runtime Example</a></p>
-<p><strong>Python</strong></p><p>
-<a href="functions.immdom.com/python/basic">Basic Example</a></p>
-<p><a href="functions.immdom.com/python/param">Params Example</a> &lt;-- this is different. it just prints a dict of params.</p>
-<p><a href="https://functions.immdom.com/api?domain=google.com">Flask Example</a> &lt;-- dns lookup on a domain.</p>
-<h3 id="catalogueofexamplescode">Catalogue of Examples - code</h3>
-<p><strong>Javascript</strong></p>
-<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/basic.js">Basic Example</a></p>
-<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/param.js">Params Example</a></p>
-<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/js/files.js">Use Files at Runtime Example</a></p>
-<p><strong>Python</strong></p><p>
-<a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/basic.py">Basic Example</a></p>
-<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/python/param.py">Params Example</a></p>
-<p><a href="https://github.com/paulkarayan/vercel-functions-immdom/blob/master/api/index.py">Flask Example</a></p>
+<p>Imminent Domain (ImmDom) is a free &amp; open-source toolset to help you get from idea to working product fast - and have fun doing it!</p>
+<p>built for the solutions engineers, the hackers, the "non-coders", and anyone who wants the skip the bullshit and quickly test or iterate on an idea. just think of what is possible when you make every day a hack day, and everyone a builder.</p>
+<h2 id="whatisit">what is it?</h2>
+<p>ImmDom is currently made up of two main sub-projects - both at the Proof-of-Concept stage:</p>
+<hr />
+<p><strong>A Functions Catalogue</strong></p>
+<p>no one should aspire to solve the same problem twice! we've all written wrappers and middleware for working with hosted APIs and 3rd party libraries - so why not share our best with each other?</p>
+<p>the ImmDom Function Catalogue is easy to search these functions by use case / tag.</p>
+<p>while we're at it, we're making these components more reliable &amp; well characterized, so you can easily compose them into larger and more powerful systems.</p>
+<p>finally, we're are creating tools to help you provision and deploy these functions automagically to the cloud provider of your choice.
+While you're waiting for the automation, you can check out our tutorials:</p>
+<ul>
+<li>put a function in Vercel</li>
+<li><a href="https://functions.immdom.com">Vercel function examples</a></li>
+</ul>
+<p>and here's an example (admittedly vendor-specific) of what where we are going:
+<a href="https://functions.netlify.com">functions.netlify.com</a></p>
+<hr />
+<p><strong>No-Fuss Provisioning and Configuring Cloud Infrastructure</strong></p>
+<p>ImmDom provides a no-fuss "Infrastructure as Code" workflow for provisioning and updating infra that "just works"(tm).
+it follows the GitOps pattern, and provides the following:</p>
+<ul>
+<li>collects infrastructure information into your repo for easy examination</li>
+<li>secrets / env var management</li>
+<li>easy ability to interact with your cloud resources via "outputs"</li>
+<li>reliability -&gt; functional/infra tests where people usually dont have them</li>
+<li>cloud agnosticism</li>
+</ul>
+<p>while we're building the automation out, why don't you check out the tutorials?</p>
+<ul>
+<li>they</li>
+<li>will</li>
+<li>go</li>
+<li>here</li>
+</ul>
+<h2 id="longtermplansphilosophy">long term plans &amp; philosophy</h2>
+<p>our intention is to make software development easier and open to more people, and software systems more scalable and reliable.</p>
+<ul>
+<li>code once, use anywhere (google sheets, apps, etc…)</li>
+<li>use-case based search for functionality</li>
+<li>learn / build by modifying working examples</li>
+<li>"true" software engineering</li>
+</ul>
+<h2 id="attributionandcontribution">Attribution and Contribution</h2>
+<p>we're always going to be free and open source, in spirit and name alike.
+<strong>we welcome you to join us in opening software development to more people</strong></p>
+<p>one the best ways to get started is to tell us more about what you are building (or want to build) with Immdom. another would be to request a platform feature or catalogue item (either function or component) using Github issues here</p>
+<p>there has been a lot of amazing work that has inspired us. this includes the like of Netlify and Vercel Functions, Blockspring,
+Vercel's GCP integration, and Gruntworks.</p>
+<p>Thank you.</p>
 <h3 id="sponsors">Sponsors</h3>
-<p>(not really sponsored by but the logo is cool - and we are looking for people to help us spread the news!)</p>
+<p>(we are looking for people to help us spread the news!)</p>
 <p align="center">
   <img src="_assets/irregular_engineering.png" />
 </p>
+
 
 </body>
 </html>
