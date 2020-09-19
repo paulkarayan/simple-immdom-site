@@ -6,12 +6,14 @@ We use Showdown.
 
 ```
 npm install showdown -g
-showdown makehtml -i index.md -o index.html
+showdown makehtml -i pre-index.md -o pre-index.html
+rm index.html
+cat front.html pre-index.html back.html >> index.html
 ```
-
-then copy the code into "dummy"
 
 and then add CSS from
 https://markdowncss.github.io/
 
+```
 open index.html
+```

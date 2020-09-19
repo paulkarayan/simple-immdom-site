@@ -1,4 +1,4 @@
-# Imminent Domain (ImmDom)
+# Imminent Domain
 
 <p align="center">
   <img src="_assets/thinker.png" />
